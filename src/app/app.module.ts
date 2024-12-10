@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './login/login.component';
     WelcomeComponent,
     DataBindingComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
